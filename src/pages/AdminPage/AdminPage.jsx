@@ -11,7 +11,6 @@ const { Sider, Header, Content } = Layout;
 
 const AdminPage = () => {
   const [collapsed, setCollapsed] = useState(false);
-
   return (
     <Layout>
       <Sider
@@ -22,7 +21,6 @@ const AdminPage = () => {
         className="sider"
       >
         <Sidebar />
-
         <Button
           type="text"
           icon={collapsed ? <MenuUnfoldOutlined /> : <MenuFoldOutlined />}
