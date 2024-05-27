@@ -1,9 +1,10 @@
-import PageA from "../pages/HostPage/PageA";
+import { PageA } from "../pages";
+
 const routers = [
     {
         key: "a",
-        path: "/a",
-        component: PageA,
+        path: "/adu",
+        component:PageA,
     },
     {
         key: "/",

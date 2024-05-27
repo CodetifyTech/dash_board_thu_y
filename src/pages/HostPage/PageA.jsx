@@ -1,7 +1,11 @@
+import Loading from "./layout/Loading";
+
 function PageA() {
   return (
     <>
-      <h1>A</h1>
+      <div className="h-[5000px]">
+        test dài dài
+      </div>
     </>
   );
 }
